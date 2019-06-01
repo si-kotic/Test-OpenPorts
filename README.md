@@ -26,11 +26,11 @@ Accept wildcard characters | False
 Mandatory | True
 ### Syntax
 ```powershell
-Test-OpenPort -Address www.google.co.uk -Port 443
+Test-OpenPort -Address -Address www.google.co.uk -Port 443
 ```
 ### Example
  ```diff
-C:\>Test-OpenPort www.google.co.uk -Port 443
+C:\>Test-OpenPort -Address www.google.co.uk -Port 443
 +Successfully connected to www.google.co.uk on Port 443
 ```
 ```diff
