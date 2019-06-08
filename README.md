@@ -26,7 +26,7 @@ Accept wildcard characters | False
 Mandatory | True
 ### Syntax
 ```powershell
-Test-OpenPort -Address -Address www.google.co.uk -Port 443
+Test-OpenPort -Address www.google.co.uk -Port 443
 ```
 ### Example
  ```diff
